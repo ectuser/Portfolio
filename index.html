@@ -10,16 +10,11 @@
 		<link href="css/style.css" type="text/css" rel="stylesheet" />
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 		<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
-		 <style>
-		#map {
-			height: 400px;
-			width: 100%;
-       }
-    </style>
-
+		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -32,17 +27,17 @@
 			<div class="row">
 			<div class="col-lg-8">
 			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="#about_me">About Me</a></li>
-				<li role="presentation"><a href="#my_specialization">My Specialization</a></li>
-				<li role="presentation"><a href="#my_projects">My Projects</a></li>
-				<li role="presentation"><a href="#">Contacts</a></li>
+				<li role="presentation"><a href="#about_me" class="link">About Me</a></li>
+				<li role="presentation"><a href="#my_specialization" class="link">My Specialization</a></li>
+				<li role="presentation"><a href="#my_projects" class="link">My Projects</a></li>
+				<li role="presentation"><a href="#contacts" class="link">Contacts</a></li>
 			</ul></div>
 			<div class="col=lg-4" id="portfolio">Portfolio</div>
 			</div>
 			<div id="square"></div>
 			<div id="back_1">
 				<div id="head_back_1">e c t u s e r </div>
-				<div id="github"><a id="github_text" href="https://github.com/ectuser">GitHub</a></div>
+				<div id="github"><a id="github_text" href="https://github.com/ectuser" target="_blank">GitHub</a></div>
 				</div>
 				<div id="about_me">
 				<div class="row">
@@ -50,12 +45,12 @@
 				<div class="col-lg-4"><p class="pages">About Me</p></div>
 				</div>
 				<div>
-				<div class="col-lg-4">
+				<div class="col-lg-8">
 					<p class="text_about_me">My name is Ivan.</p>
 					<p class="text_about_me">I live in Tomsk, Russia.</p>
-					<p class="text_about_me">More inf here................</p>
+					<p class="text_about_me">I'm interested in Mass Media, programming in various programming languages, solving Magic Cube, composing music</p>
 				</div>
-				<div class="col-lg-8"></div>
+				<div class="col-lg-4"></div>
 				</div>
 				</div>
 				<div id="my_specialization">
@@ -73,7 +68,7 @@
 				<div class="col-lg-6">
 					<div class="square_2">
 					<p class="main_inf">Music</p>
-					<p class="desc_inf">I created 7 music compositions in FL Studio 12. </p>
+					<p class="desc_inf">I created 6 music compositions in FL Studio 12. </p>
 					</div>
 				</div>
 				</div>
@@ -95,26 +90,52 @@
 							<div class="wraper">
 							<div class="item css">
 								<div class="square_3">
-									<p class="main_inf"><a href="https://politicalspectrum.000webhostapp.com/">Political Spectrum</a></p>
+									<p class="main_inf"><a href="https://politicalspectrum.000webhostapp.com/" target="_blank">Political Spectrum</a></p>
 									<p class="desc_inf">The website where's interactive image with political systems and description for them. </p>
 								</div>
 							</div>
 							<div class="item css">
 								<div class="square_3">
-									<p class="main_inf"><a href="http://posobiev2.000webhostapp.com/">Posobie</a></p>
-									<p class="desc_inf">Website for my classmates project about solving tasks in United State Exam</p>
+									<p class="main_inf"><a href="http://posobiev2.000webhostapp.com/" target="_blank">Posobie</a></p>
+									<p class="desc_inf">Website for my classmates project about solving tasks in United State Exam.</p>
 								</div>
 							</div>
 							<div class="item music">
 								<div class="square_3">
-									<p class="main_inf"><a href="#">Music</a></p>
-									<p class="desc_inf">I created 7 music compositions in FL Studio 12. </p>
+									<p class="main_inf"><a href="music.html" target="_blank">Music</a></p>
+									<p class="desc_inf">Here's 6 compusitions that I created in FL Studio 12. </p>
 								</div>
 							</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div id="contacts">
+					<div class="row">
+					<div class="col-lg-8"></div>
+					<div class="col-lg-4"><p class="pages">Contacts</p></div></div>
+					<div class="alert alert-info" role="alert"><p><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:m.ectuser@gmail.com" target="_blank">m.ectuser@gmail.com</a></p></div>
+					<div class="alert alert-info" role="alert"><p><i class="fa fa-vk" aria-hidden="true"></i> <a href="https://vk.com/ivan.menschikov" target="_blank">Ivan Menshchikov</a></p></div>
+					<div class="alert alert-info" role="alert"><p><i class="fa fa-globe" aria-hidden="true"></i> And I live somewhere around here : </p></div>
+					<div id="map"></div>
+					<script>
+					function initMap() {
+						var uluru = {lat: 56.500466, lng: 84.982073};
+						var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 5,
+						center: uluru
+						});
+					var marker = new google.maps.Marker({
+						position: uluru,
+						map: map
+					});
+					}
+					</script>
+					<script async defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiNav0gDVAsaCtsJhs4ztjCjyd9XYeNVg&callback=initMap">
+					</script>
+				</div>
+				
 				</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -1,4 +1,4 @@
-$(document).on('click', 'a', function(event){
+$(document).on('click', '.link', function(event){
     event.preventDefault();
 
     $('html, body').animate({
@@ -6,9 +6,15 @@ $(document).on('click', 'a', function(event){
     }, 500);
 });
 
+
 $('.main-iso').isotope({
 	itemSelector: '.item',
-	layoutMode: 'fitRows'
+	//layoutMode: 'fitRows',
+	masonry: {
+		//columnWidth: 300,
+		fitWidth: true
+
+	}
 });
 // Isotope click function
 $('.iso-nav ul li').click(function(){

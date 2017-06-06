@@ -4,8 +4,12 @@
 	padding-top: 10px;
 	text-align: center;
 }
-.link {
-	
+#music{
+	text-align: center;
+	background-color: #fafafa;
+}
+#music p{
+	font: 25px Arial;
 }
 /*.row a {
 	font: 15px Arial;
@@ -84,7 +88,7 @@ a:hover {
 	padding-top:15px;
 }
 .text_about_me {
-	font: 30px Arial;
+	font: 20px Arial;
 }
 #about_me {
 	padding-bottom: 15px;
@@ -96,12 +100,11 @@ a:hover {
 	padding-bottom: 30px;
 }
 
-.square_2 {
-	width: 300px;
-	height: 200px;
-	border: 2px solid gray;
-	margin: auto;
-	background-color: #f7f7f7;
+.square {
+	width: 50%;
+	height: 1px;
+	background-color: gray;
+	margin: 5px auto;
 }
 .main_inf{
 	padding-top: 35px;
