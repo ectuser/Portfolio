@@ -141,9 +141,10 @@ a:hover {
 	text-decoration: none;
 }
 .pages {
-	text-align: center;
+	text-align: right;
 	font: bold 30px Arial;
 	padding-top:15px;
+	padding-right: 15px;
 }
 .text_about_me {
 	font: 30px Arial;

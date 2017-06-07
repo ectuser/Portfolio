@@ -385,38 +385,9 @@ $('.iso-nav ul li').click(function(){
   this.audioPlayer = new AudioPlayerUI({
     el: document.getElementById("audio-player"),
     songs: [
-      {
+	{
         image: "images/ectuser.png",
-        name: "ectuser - Untitled(08/02/2017)",
-        srcs: [
-          {
-            src: "audio/Untitled.mp3",
-            type: "audio/mp3"
-          }
-        ]
-      }, {
-        image: "images/ectuser.png",
-        name: "ectuser - Calmness(02/22/2017)",
-        srcs: [
-          {
-            src: "audio/Calmness.mp3",
-            type: "audio/mp3"
-          }
-        ]
-      },
-	  {
-        image: "images/ectuser.png",
-        name: "ectuser - Joke(03/04/2017)",
-        srcs: [
-          {
-            src: "audio/Joke.mp3",
-            type: "audio/mp3"
-          }
-        ]
-      },
-	  {
-        image: "images/ectuser.png",
-        name: "ectuser - Hurricane Matthew(03/07/2017)",
+        name: "ectuser - Hurricane Matthew",
         srcs: [
           {
             src: "audio/Hurricane Matthew.mp3",
@@ -426,7 +397,7 @@ $('.iso-nav ul li').click(function(){
       },
 	  {
         image: "images/ectuser.png",
-        name: "ectuser - Next To Hole(03/19/2017)",
+        name: "ectuser - Next To Hole",
         srcs: [
           {
             src: "audio/Next To Hole.mp3",
@@ -434,9 +405,38 @@ $('.iso-nav ul li').click(function(){
           }
         ]
       },
+      {
+        image: "images/ectuser.png",
+        name: "ectuser - Untitled",
+        srcs: [
+          {
+            src: "audio/Untitled.mp3",
+            type: "audio/mp3"
+          }
+        ]
+      }, {
+        image: "images/ectuser.png",
+        name: "ectuser - Calmness",
+        srcs: [
+          {
+            src: "audio/Calmness.mp3",
+            type: "audio/mp3"
+          }
+        ]
+      },
 	  {
         image: "images/ectuser.png",
-        name: "ectuser - The Depth(03/21/2017)",
+        name: "ectuser - Joke",
+        srcs: [
+          {
+            src: "audio/Joke.mp3",
+            type: "audio/mp3"
+          }
+        ]
+      },
+	  {
+        image: "images/ectuser.png",
+        name: "ectuser - The Depth",
         srcs: [
           {
             src: "audio/The Depth.mp3",
