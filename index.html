@@ -8,9 +8,9 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Ectuser's portfolio</title>
 		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 		<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
@@ -24,17 +24,19 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
-			<div class="col-lg-8">
-			<ul class="nav nav-pills">
-				<li role="presentation"><a href="#about_me" class="link">About Me</a></li>
-				<li role="presentation"><a href="#my_specialization" class="link">My Specialization</a></li>
-				<li role="presentation"><a href="#my_projects" class="link">My Projects</a></li>
-				<li role="presentation"><a href="#contacts" class="link">Contacts</a></li>
-			</ul></div>
-			<div class="col=lg-4" id="portfolio">Portfolio</div>
-			</div>
-			<div id="square"></div>
+				<div class="wraper_1">
+					<div class="col-lg-6">
+					<header>
+						<a href="#about_me" class="link"><div class="square_4">About Me</div></a>
+						<a href="#my_specialization" class="link"><div class="square_4">My Specialization</div></a>
+						<a href="#my_projects" class="link"><div class="square_4">My Projects</div></a>
+						<a href="#contacts" class="link"><div class="square_4">Contacts</div></a>
+					</header>
+					</div>
+					<div class="col-lg-6">
+						<p id="portfolio">ectuser</p>
+					</div>
+				</div>
 			<div id="back_1">
 				<div id="head_back_1">e c t u s e r </div>
 				<div id="github"><a id="github_text" href="https://github.com/ectuser" target="_blank">GitHub</a></div>
@@ -44,7 +46,7 @@
 				<div class="col-lg-8"></div>
 				<div class="col-lg-4"><p class="pages">About Me</p></div>
 				</div>
-				<div>
+				<div class="row">
 				<div class="col-lg-8">
 					<p class="text_about_me">My name is Ivan.</p>
 					<p class="text_about_me">I live in Tomsk, Russia.</p>

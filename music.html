@@ -22,50 +22,49 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body class="index">
 		<div class="container">
-			<div class="row">
-			<div class="col-lg-8">
-			<ul class="nav nav-pills">
-				<li role="presentation"><a href="index.html" target="_blank">About Me</a></li>
-				<li role="presentation"><a href="index.html" target="_blank">My Specialization</a></li>
-				<li role="presentation"><a href="index.html" target="_blank">My Projects</a></li>
-				<li role="presentation"><a href="index.html" target="_blank">Contacts</a></li>
-			</ul></div>
-			<div class="col=lg-4" id="portfolio">Portfolio</div>
-			</div>
-			<div id="square"></div>
+			<div class="wraper_1">
+					<div class="col-lg-6">
+					<header>
+						<a href="index.html#about_me"><div class="square_4">About Me</div></a>
+						<a href="index.html#my_specialization"><div class="square_4">My Specialization</div></a>
+						<a href="index.html#my_projects"><div class="square_4">My Projects</div></a>
+						<a href="index.html#contacts"><div class="square_4">Contacts</div></a>
+					</header>
+					</div>
+					<div class="col-lg-6">
+						<p id="portfolio">ectuser</p>
+					</div>
+				</div>
 			<div id="back_1">
 				<div id="head_back_1">e c t u s e r </div>
 				<div id="github"><a id="github_text" href="https://github.com/ectuser" target="_blank">GitHub</a></div>
 			</div>
-			<div id="music">
+			<div id="music_1">
 			<div class="row">
 				<div class="col-lg-8"></div>
 				<div class="col-lg-4"><h1 class="pages">Music</h1></div>
 				</div>
 				<div class="alert alert-info" role="alert"><p>Author - Title (mo/day/year)</p></div>
-				<div class="square"></div>
-				<p>ectuser - Untitled(08/02/2017)</p>
-				<audio controls>
-				<source src="audio/Untitled.mp3" type="audio/mpeg"></audio>
-				<p>ectuser - Calmness(02/22/2017)</p>
-				<audio controls>
-				<source src="audio/Calmness.mp3" type="audio/mpeg"></audio>
-				<p>ectuser - Joke(03/04/2017)</p>
-				<audio controls>
-				<source src="audio/Joke.mp3" type="audio/mpeg"></audio>
-				<p>ectuser - Hurricane Matthew(03/07/2017)</p>
-				<audio controls>
-				<source src="audio/Hurricane Matthew.mp3" type="audio/mpeg"></audio>
-				<p>ectuser - Next To Hole(03/19/2017)</p>
-				<audio controls>
-				<source src="audio/Next To Hole.mp3" type="audio/mpeg"></audio>
-				<p>ectuser - The Depth(03/21/2017)</p>
-				<audio controls>
-				<source src="audio/The Depth.mp3" type="audio/mpeg"></audio>
-			</div>
-		</div>
+					<div id="audio-player" class="audio-player-wrapper">
+      <div class="audio-player-image">
+        <span class="audio-player-song-name"></span>
+      </div>
+
+      <div class="audio-player-controls">
+        <span class="audio-player-progress">
+          <span class="audio-player-progress-bar"></span>
+        </span>
+        <span class="audio-player-button-wrappers">
+          <a role="button" class="audio-player-button small icon-backward"><span class="omg"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></span></a>
+          <a role="button" class="audio-player-button audio-player-place-pause-button icon-play"><span class="omg" id="omg_center"><i class="fa fa-play-circle-o" aria-hidden="true"></i></span></a>
+          <a role="button" class="audio-player-button small icon-forward"><span class="omg"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span></a>
+        </span>
+      </div>
+    </div>
+				</div>
+				</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>

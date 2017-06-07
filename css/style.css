@@ -1,12 +1,74 @@
 @import url(reset.css);
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)  {
+	body .wraper{
+		text-align: center;
+	}
+	body .wraper_1 {
+		position: relative;
+		width: 330px;
+		background-color: #ffffff;
+	}
+	body header {
+		text-align: center;
+	}
+	body .square_4 {
+	display: inline-block;
+	padding: 5px 3px;
+	color: #337ab7; /* цвет текста */
+	background:#ffffff; /* фон блока */
+	border: 1px solid #337ab7;
+	cursor: pointer;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-moz-border-radius: 10px; /* закругление для старых Mozilla Firefox */
+	-webkit-border-radius: 10px; /* закругл. для старых Chrome и Safari */
+	-khtml-border-radius:10px; /* закругл. для браузера Konquerer системы Linux */
+	border-radius: 10px; /* закругление углов для всех, кто понимает */
+	font: 9px Arial;
+	}
+	body #portfolio {
+		text-align: center;
+	}
+	}
+.wraper_1 {
+	position: fixed;
+	width: 1140px;
+	background-color: #e2e2e2;
+	z-index: 1;
+	padding-top: 10px;
+}
 .row div {
 	padding-top: 10px;
-	text-align: center;
+}
+#about_me .row .col-lg-8 {
+	padding-left: 30px;
 }
 .link {
 	
 }
+.square_4 {
+	display: inline-block;
+	padding: 5px 10px;
+	color: #337ab7; /* цвет текста */
+	background:#ffffff; /* фон блока */
+	border: 1px solid #337ab7;
+	cursor: pointer;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-moz-border-radius: 10px; /* закругление для старых Mozilla Firefox */
+	-webkit-border-radius: 10px; /* закругл. для старых Chrome и Safari */
+	-khtml-border-radius:10px; /* закругл. для браузера Konquerer системы Linux */
+	border-radius: 10px; /* закругление углов для всех, кто понимает */
+}
+.square_4:hover {
+	color: #ffffff; /* цвет текста */
+	background:#337ab7; /* фон блока */
+}
+
 /*.row a {
 	font: 15px Arial;
 }
@@ -24,8 +86,8 @@ a:hover {
 }*/
 
 #portfolio {
-	text-align: center;;
-	font: bold 30px Arial
+	font: bold 30px Arial;
+	text-align: right;
 }
 #square {
    width: 100%; 
@@ -89,7 +151,6 @@ a:hover {
 #about_me {
 	padding-bottom: 15px;
 	background-color: #f7f7f7;
-	height: 300px;
 }
 #my_specialization {
 	background-color: #eeeeef;
@@ -123,7 +184,7 @@ a:hover {
 }
 
 .wraper {
-	margin: 10px;
+	padding: 10px;
 }
 
 	
@@ -136,7 +197,6 @@ a:hover {
 	list-style: none;
 	padding: 0;
 	display: inline-block;
-
 	padding: 10px 20px;
 	color: #c7d5ed; /* цвет текста */
 	background:#337ab7; /* фон блока */
@@ -217,4 +277,23 @@ a:hover {
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiNav0gDVAsaCtsJhs4ztjCjyd9XYeNVg&callback=initMap">
     </script>
+	
+	<header class="container">
+				<div class="wraper">
+					<div class="col-lg-6">
+						<a href="#about_me" class="link"><div class="square_4">About Me</div></a>
+						<a href="#my_specialization" class="link"><div class="square_4">My Specialization</div></a>
+						<a href="#my_projects" class="link"><div class="square_4">My Projects</div></a>
+						<a href="#contacts" class="link"><div class="square_4">Contacts</div></a>
+					</div>
+					<div class="col-lg-6">
+						<p id="portfolio">ectuser</p>
+					</div>
+				</div>
+			</header>
+			header {
+	position: fixed;
+	background-color:#ffffff;	
+	z-index: 1;
+}
 			*/
