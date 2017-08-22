@@ -6,7 +6,7 @@
 }
 #music_1{
 	text-align: center;
-	background-color: #fafafa;
+	background-color: #f7f7f7;
 }
 #music_1 p{
 	font: 25px Arial;
@@ -50,7 +50,7 @@
 	}
 .wraper_1 {
 	position: fixed;
-	width: 1140px;
+	width: 100%;
 	background-color: #e2e2e2;
 	z-index: 1;
 	padding-top: 10px;
@@ -146,13 +146,19 @@ a:hover {
 	margin: 10px;
 }
 .omg {
-	font-size: 19px;
+	font-size: 14px;
 	color: #929da4;
+	
 }
-#omg_center {
-	font-size: 23px;
-	padding-left: 5px;
-	padding-bottom: 3px;
+#omg_left {
+	padding-right: 3px;
+	
+	
+}
+#omg_right {
+	padding-left: 3px;
+	
+	
 }
 #panel {
 	padding-left: 10px;
@@ -290,7 +296,7 @@ body {
   right: 5px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
   text-transform: uppercase; }
@@ -430,6 +436,7 @@ body {
   display: block;
   width: 133px;
   margin: 15px auto 0 auto; }
+
 /* <div class="square"></div>
 				<p>ectuser - Untitled(08/02/2017)</p>
 				<audio controls>

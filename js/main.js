@@ -291,9 +291,9 @@ $('.iso-nav ul li').click(function(){
       this.$el.toggleClass("error", this.audioPlayer.isErrored());
       this.$progressContainer.toggleClass("loading", this.audioPlayer.isLoading());
       if (this.audioPlayer.isPlaying()) {
-        this.$button.removeClass("icon-play").addClass("icon-pause");
+        this.$button.removeClass("fa icon-play").addClass("fa icon-pause");
       } else {
-        this.$button.removeClass("icon-pause").addClass("icon-play");
+        this.$button.removeClass("fa icon-pause").addClass("fa icon-play");
       }
       if (this.audioPlayer.isEnded() && this.currentSong !== this.songs.length - 1) {
         this.nextSong();

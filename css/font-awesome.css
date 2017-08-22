@@ -401,10 +401,10 @@
 .fa-backward:before {
   content: "\f04a";
 }
-.fa-play:before {
+.icon-play:before {
   content: "\f04b";
 }
-.fa-pause:before {
+.icon-pause:before {
   content: "\f04c";
 }
 .fa-stop:before {
@@ -2335,3 +2335,21 @@
   overflow: visible;
   clip: auto;
 }
+/*.icon-forward:before {
+  content: "\f04e";
+}
+.icon-fast-forward:before {
+  content: "\f050";
+}
+.icon-step-forward:before {
+  content: "\f051";
+}
+.icon-step-backward:before {
+  content: "\f048";
+}
+.icon-fast-backward:before {
+  content: "\f049";
+}
+.icon-backward:before {
+  content: "\f04a";
+}*/

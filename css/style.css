@@ -34,10 +34,15 @@
 	}
 .wraper_1 {
 	position: fixed;
-	width: 1140px;
+	text-align: center;
+	width: 100%;
 	background-color: #e2e2e2;
 	z-index: 1;
 	padding-top: 10px;
+}
+#omgcenter {
+	margin: auto;
+	text-align: center;
 }
 .row div {
 	padding-top: 10px;
