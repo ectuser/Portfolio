@@ -34,7 +34,6 @@
 	}
 .wraper_1 {
 	position: fixed;
-	text-align: center;
 	width: 100%;
 	background-color: #e2e2e2;
 	z-index: 1;
@@ -42,7 +41,6 @@
 }
 #omgcenter {
 	margin: auto;
-	text-align: center;
 }
 .row div {
 	padding-top: 10px;
